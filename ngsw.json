@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1643256273508,
+  "index": "/csf-day1/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/csf-day1/favicon.ico",
+        "/csf-day1/index.html",
+        "/csf-day1/main.1ad70239e8618f51.js",
+        "/csf-day1/manifest.webmanifest",
+        "/csf-day1/polyfills.59e2621be72118db.js",
+        "/csf-day1/runtime.7e0588cab297a553.js",
+        "/csf-day1/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/csf-day1/assets/cat.PNG",
+        "/csf-day1/assets/dog.PNG",
+        "/csf-day1/assets/icons/icon-128x128.png",
+        "/csf-day1/assets/icons/icon-144x144.png",
+        "/csf-day1/assets/icons/icon-152x152.png",
+        "/csf-day1/assets/icons/icon-192x192.png",
+        "/csf-day1/assets/icons/icon-384x384.png",
+        "/csf-day1/assets/icons/icon-512x512.png",
+        "/csf-day1/assets/icons/icon-72x72.png",
+        "/csf-day1/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/csf-day1/assets/cat.PNG": "ad4c4f3df126ca0165bec33ebd8342fe3feea54a",
+    "/csf-day1/assets/dog.PNG": "23b753a182863f305cede393e558ddd0270dffe1",
+    "/csf-day1/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/csf-day1/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/csf-day1/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/csf-day1/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/csf-day1/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/csf-day1/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/csf-day1/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/csf-day1/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/csf-day1/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/csf-day1/index.html": "b924fcaba08ad5d762f0a448d5882e0d2b5261d3",
+    "/csf-day1/main.1ad70239e8618f51.js": "f03c80d431f31bcdba49e71e50d76a3ce9b35308",
+    "/csf-day1/manifest.webmanifest": "30cd571fd7e188335bcab476a7438233ce670594",
+    "/csf-day1/polyfills.59e2621be72118db.js": "1e41f67714f413724fac50382299c5a8a33c656d",
+    "/csf-day1/runtime.7e0588cab297a553.js": "b29e5966051bb47d4929c7ec5fcb5799a1e4d778",
+    "/csf-day1/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
